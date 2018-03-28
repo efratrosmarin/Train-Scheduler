@@ -2,7 +2,15 @@
 h1{
 margin:60px;
   text-align: center;
-color: red;
+background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+  line-height: 200px;
+
+
 }
  .parallax{
 
@@ -63,7 +71,8 @@ footer.page-footer {
 }
 
 .btn{
-	background-color:rgb(79, 154, 129);
+	background-color: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+
 color:white;
 	
 }
